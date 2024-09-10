@@ -25,27 +25,27 @@
             border-radius: 5px;
         }
         .content {
-            margin-top: 50px; /* Adjust if necessary to prevent content from hiding behind the navbar */
+            margin-top: 50px; /*  to prevent content from hiding behind the navbar */
             padding: 20px;
         }
-        footer {
-            background-color: #333;
-            color: white;
-            text-align: center;
-            padding: 10px 0;
-            position: fixed;
-            bottom: 0;
-            width: 100%;
-        }
+       
 
 h1 {text-align: center;} 
 
-.center image {
-  display: block;
-  margin-left: auto;
-  margin-right: auto;
-  width: 50%;
+.center-i {
+  display: flex;
+  justify-content: space-around;
+  padding: 50px 20px;
 } 
+.center {
+    text-align: center;
+    max-width:250px ;
+}
+.center img {
+    height:20em;
+    margin-bottom:20px;
+}
+
  .image-container {
             width: fit-content; /* Shrinks the container to fit the image */
             margin: 0 auto; /* Centers the container horizontally */
@@ -57,13 +57,22 @@ h1 {text-align: center;}
         }
 .box {
             float: left;
-            margin-right: 10px; /* Optional: adds space to the right of the image */
+            margin-right: 10px; /*  adds space to the right of the image */
         }
-        /* Optional: To clear the float and avoid layout issues */
+        /*  To clear the float and avoid layout issues */
         .clearfix::after {
             content: "";
             display: table;
             clear: both;
+        }
+ footer {
+            background-color: #333;
+            color: white;
+            text-align: center;
+            padding: 10px 0;
+            position: fixed;
+            bottom: 0;
+            width: 100%;
         }
  
 </style>

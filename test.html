@@ -1,88 +1,22 @@
-<html>
 
-<head> 
+<!DOCTYPE html>
+<html>
+<head>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
 
 <title> my website </title>
+<link rel="stylesheet" href="mystyle1.css">
 
-<style> 
-{
-            font-family: Arial, sans-serif;
-            margin: 0;
-            padding: 0;
-            background-color: #f4f4f4;
-        }
-        .navbar {
-            position: fixed;
-            top: 0;
-            right: 0;
-            background-color: #333;
-            padding: 10px;
-            border-radius: 0 0 0 10px;
-        }
-        .navbar a {
-            color: white;
-            text-decoration: none;
-            padding: 10px 20px;
-            display: inline-block;
-            font-size: 16px;
-        }
-        .navbar a:hover {
-            background-color: #575757;
-            border-radius: 5px;
-        }
-        .content {
-            margin-top: 50px; /* Adjust if necessary to prevent content from hiding behind the navbar */
-            padding: 20px;
-        }
-        footer {
-            background-color: #333;
-            color: white;
-            text-align: center;
-            padding: 10px 0;
-            position: fixed;
-            bottom: 0;
-            width: 100%;
-        }
-
-h1 {text-align: center;} 
-
-.center image {
-  display: block;
-  margin-left: auto;
-  margin-right: auto;
-  width: 50%;
-} 
- .image-container {
-            width: fit-content; /* Shrinks the container to fit the image */
-            margin: 0 auto; /* Centers the container horizontally */
-        }
-        .image-container img {
-            display: block; /* Ensures the image behaves as a block-level element */
-            max-width: 100%; /* Ensure the image is responsive */
-            height: auto;
-        }
-.box {
-            float: left;
-            margin-right: 10px; /* Optional: adds space to the right of the image */
-        }
-        /* Optional: To clear the float and avoid layout issues */
-        .clearfix::after {
-            content: "";
-            display: table;
-            clear: both;
-        }
- 
-</style>
-
-</Head>
+</head>
 
 
 <body> 
 
  <div class="navbar">
-        <a href="#home">Home</a>
-        <a href="#about">About</a>
-        <a href="#contact">Contact</a>
+        <a href="test.html">Home</a>
+        <a href="about.html">About</a> 
+        <a href="contact.html">Contact</a>
     </div>
     
     <div class="content">
@@ -91,35 +25,41 @@ h1 {text-align: center;}
         <section id="home">
             <h2>Home Section</h2>
             <p>for you daily dose.</p>
+
+ 
+
 <h1> for helping others </h1> <br>
              
+<section class="center-i">
+    <div class= "center">
 
-<img src="OIP" alt= "dog" <br>
+<img src="OIP.jpg" alt= "dog"> <br>
 
 <h2> this dog is playing </h2> 
- <div class="image-container">
+<p> this is a dog having lots of fun <p> 
+</p>   
+</div> 
+ 
 
- <img src="OIP(1)" alt= "cat" class="center image"> <br>
+ <div class="center" >
+ <img src="OIP (1).jpg" alt="cat">  <br>
 
 
-<h3> this cat is playing </h3> 
-<div class="clearfix">
-<img src="OIP(2)" alt= "boy" class= "box"<br>
+<h2> this cat is playing </h2> 
+<p> this is a cat having fun <p> 
+</p> 
+</div>
+<div class="center">
+  <img src="OIP (2).jpg" alt="boy" class= "box"> <br>
+  <h2> this is boy playing </h2> 
+  <p> this is a boy playing and having fun </p>
+    
     </div>
 
-<h4> this is boy playing </h4> 
+</section> 
 
-        </section>
-        <section id="about">
-            <h2>About Section</h2>
-            <p>deticated to you show of playing animals and peope.</p>
-        </section>
-        <section id="contact">
-            <h2>Contact Section</h2>
-            <p>Cu at 785.</p>
-        </section>
-    </div>
 
+       
     <footer>
         <p>&copy; 2024 My Website. All rights reserved.</p>
     </footer>
